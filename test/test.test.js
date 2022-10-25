@@ -24,3 +24,7 @@ test('type name', () => {
         magician instanceof Character;
     }).toThrow('Тип не соответствует условию!');
 });
+
+test('levelUp', () => {
+    expect(levelup(attack, defence)).toBe()
+})

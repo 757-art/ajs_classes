@@ -14,6 +14,11 @@ export default class Magician extends Character {
       return;
     }
   }
+  damage(points) {
+    if (this.health >= 0) {
+      super.damage(points)
+    }
+  }
 }
 const magician = new Magician('Petr');
 console.log(magician);
