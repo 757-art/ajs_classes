@@ -19,15 +19,4 @@ export default class Character {
     this.health = 100;
     this.level = 1;
   }
-
-  levelup(attack, defence) {
-    this.attack = attack + attack*0.2;
-    this.defence =  defence + defence*0.2;
-    this.level +=1;
-    this.health = 100;
-  }
-
-    damage(points){
-      health -= points * (1 - defence / 100);
-    }
 }
