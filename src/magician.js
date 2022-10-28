@@ -6,19 +6,6 @@ export default class Magician extends Character {
     this.attack = 10;
     this.defence = 40;
   }
-  levelup(){
-    if(this.health = 0) {
-      throw new Error('Нельзя повысить левел умершего');
-    } else {
-      super.levelup(10,40);
-      return;
-    }
-  }
-  damage(points) {
-    if (this.health >= 0) {
-      super.damage(points)
-    }
-  }
 }
 const magician = new Magician('Petr');
 console.log(magician);
